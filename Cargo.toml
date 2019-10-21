@@ -1,0 +1,17 @@
+[package]
+name = "simple-settings"
+version = "0.1.0"
+authors = ["Artem Vorotnikov <artem@vorotnikov.me>"]
+edition = "2018"
+description = "Very simple TOML-based settings storage for CLI applications."
+repository = "https://github.com/vorot93/simple-settings-rs"
+categories = ["config"]
+license = "BlueOak-1.0.0 OR MIT OR Apache-2.0"
+
+[badges]
+travis-ci = { repository = "vorot93/simple-settings-rs", branch = "master" }
+maintenance = { status = "passively-maintained" }
+
+[dependencies]
+serde = "1"
+toml = "0.5"
